@@ -1,0 +1,23 @@
+#movieContainer {
+    display: flex;
+    flex-wrap: wrap; 
+    gap:150px; 
+    padding-top: 700px;
+    margin-left: 170px;
+}
+.cardImg{
+    margin-left: 50px;
+}
+.card {
+    width: 400px;  
+}
+.cardContainer{
+     background-color: #B5838D;
+     -webkit-text-stroke: 0.4px #000000;
+     color: #FFCDB2;
+     font-size: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     border-radius: 15%;
+     overflow:auto;
+    text-overflow: ellipsis;
+    }

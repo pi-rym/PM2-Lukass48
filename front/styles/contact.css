@@ -1,0 +1,38 @@
+body{
+    background-color: #6D6875;
+}
+
+h2{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B5838D;
+    font-size: 60px;
+    width: fit-content;
+    border-radius: 20%;
+    -webkit-text-stroke: 0.1px #FFCDB2;
+    color: #E5989B;
+}
+
+
+#contacP{
+    width:600px;
+    background-color: #B5838D;
+    -webkit-text-stroke: 0.4px #ffffff;
+    color: #FFCDB2;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow:auto;
+   text-overflow: ellipsis;
+}
+
+
+#home{
+    text-decoration: none;
+    font-size: 40px;
+    -webkit-text-stroke: 0.5px #FFCDB2;
+    color: #E5989B;
+    background-color: #B5838D;
+    border-radius: 20%;
+}
+
