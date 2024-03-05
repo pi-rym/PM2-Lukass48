@@ -2,7 +2,7 @@ console.log(tempData);
 
 const movieContainer = document.getElementById('movieContainer');
 
-tempData.forEach(movie => {
+const cards = tempData.map(movie => {
     const card = document.createElement('div');
     card.classList.add('card');
     card.innerHTML = `
@@ -15,5 +15,7 @@ tempData.forEach(movie => {
             <p class="card-text"><strong>rate:</strong> ${movie.rate}</p>
         </div>
     `;
-    movieContainer.appendChild(card);
+    return card;
+    
 })
+movieContainer.append(...cards);
