@@ -43,3 +43,13 @@ body{
     background-color: #B5838D;
     border-radius: 20%;
 }
+.footer{
+    display: flex;
+    text-align: end;
+    font-size: 20px;
+    -webkit-text-stroke: 0.5px #FFCDB2;
+    color: #E5989B;
+    background-color: #B5838D;
+    width: fit-content;
+}
+

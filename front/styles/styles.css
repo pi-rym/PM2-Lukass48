@@ -46,3 +46,12 @@ h1{
     justify-content:space-around;
 }
 
+.footer{
+    margin-top: 60px;
+    padding-top: 10px;
+    font-size: 20px;
+    -webkit-text-stroke: 0.5px #FFCDB2;
+    color: #E5989B;
+    background-color: #B5838D;
+    width: fit-content;
+}
