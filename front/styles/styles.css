@@ -7,12 +7,16 @@ h1{
     display:flex;
     margin-left: auto;
     margin-right: auto;
-    background-color: #B5838D;
+    background-color: #5b5761;
     font-size: 60px;
     width: fit-content;
+    height: fit-content;
     border-radius: 20%;
     -webkit-text-stroke: 0.5px #FFCDB2;
     color: #E5989B;
+}
+h1:hover{
+    transform: scale(1.6);
 }
 
 #aboutUs{
@@ -20,8 +24,12 @@ h1{
     font-size: 40px;
     -webkit-text-stroke: 0.5px #FFCDB2;
     color: #E5989B;
-    background-color: #B5838D;
+    background-color: #5b5761;
     border-radius: 20%;
+}
+#aboutUs:hover{
+    text-decoration: underline;
+    transform: scale(1.6);
 }
 
 #contact{
@@ -29,17 +37,14 @@ h1{
     font-size: 40px;
     -webkit-text-stroke: 0.5px #FFCDB2;
     color: #E5989B;
-    background-color: #B5838D;
+    background-color: #5b5761;
     border-radius: 20%;
 }
-#movies{
-    text-decoration: none;
-    font-size: 40px;
-    -webkit-text-stroke: 0.5px #FFCDB2;
-    color: #E5989B;
-    background-color: #B5838D;
-    border-radius: 20%;
+#contact:hover{
+    text-decoration: underline;
+    transform: scale(1.6);
 }
+
 
 #links{
     display: flex;
@@ -52,6 +57,5 @@ h1{
     font-size: 20px;
     -webkit-text-stroke: 0.5px #FFCDB2;
     color: #E5989B;
-    background-color: #B5838D;
-    width: fit-content;
+    padding-top: 10%;
 }

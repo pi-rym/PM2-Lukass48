@@ -11,8 +11,11 @@
 .card {
     width: 400px;  
 }
+.card:hover{
+    transform: scale(1.2);
+}
 .cardContainer{
-     background-color: #B5838D;
+     background-color: #8d99ae;
      -webkit-text-stroke: 0.4px #000000;
      color: #FFCDB2;
      font-size: 20px;
