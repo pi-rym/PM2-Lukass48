@@ -5,16 +5,13 @@
     padding-top: 200px;
     margin-left: 170px;
 }
-.cardImg{
-    margin-left: 50px;
+.imgMovie{
+    margin-left: 10%;
 }
-.card {
-    width: 400px;  
-}
-.card:hover{
+.movieContainer:hover{
     transform: scale(1.2);
 }
-.cardContainer{
+.divMovie{
      background-color: #8d99ae;
      -webkit-text-stroke: 0.4px #000000;
      color: #FFCDB2;
@@ -25,3 +22,4 @@
      overflow:auto;
      text-overflow: ellipsis;
     }
+
