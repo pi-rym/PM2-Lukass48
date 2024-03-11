@@ -7,7 +7,7 @@ const axios = require("axios")
 
 const fetchData = async()=>{
     try {
-        const response = await axios.get('https://students-api.2.us-1.fl0.io/movies');
+        const response = await axios.get('https://students-api.up.railway.app/movies');
         const data = response.data.forEach(renderMovies)
     } catch (error) {
         throw alert("No se encontro la API");
