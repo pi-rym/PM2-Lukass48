@@ -22,3 +22,4 @@ function renderMovies(movie){
 }
 
 module.exports = renderMovies
+
