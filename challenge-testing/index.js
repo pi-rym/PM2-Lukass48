@@ -22,6 +22,7 @@ class CarritoCompra {
     return subtotal - descuento
 
    }
+   
 }
 
 module.exports = CarritoCompra;
