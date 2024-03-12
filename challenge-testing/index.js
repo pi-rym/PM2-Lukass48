@@ -8,19 +8,20 @@ class CarritoCompra {
     }
 
     calcularTotal() {
-        return this.productos.reduce((total, producto) => total + producto.precio, 0);
+       let total =0;
+       for (const item of this.productos){
+        total += item.price * item.quantity
+       }
+       return total
     }
 
-    aplicarDescuento(porcentaje) {
-        const total = this.calcularTotal();
-        return total - (total * (porcentaje / 100));
-    }
+   aplicarDescuento(porcentaje){
+    const subtotal = this.calcularTotal()
+    const descuento = this.calcularTotal() * (porcentaje / 100)
 
-    alertaSiVacio() {
-        if (this.productos.length === 0) {
-            throw new Error('El carrito de compras está vacío.');
-        }
-    }
+    return subtotal - descuento
+
+   }
 }
 
 module.exports = CarritoCompra;
