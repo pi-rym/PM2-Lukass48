@@ -1,4 +1,5 @@
-const app = require('./src/server');
+const app = require("./src/server");
 
-app.listen(3000,()=>{
-});
+const PORT = 3000;
+
+app.listen(PORT, () => {});
