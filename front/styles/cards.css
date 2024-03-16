@@ -1,25 +1,36 @@
 #movieContainer {
-    display: flex;
-    flex-wrap: wrap; 
-    gap:150px; 
-    padding-top: 200px;
-    margin-left: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+  padding-top: 200px;
+  margin-left: 170px;
 }
-.imgMovie{
-    margin-left: 10%;
+.imgMovie {
+  margin-left: 10%;
+  border-radius: 8px;
+  transition: filter 0.2s;
+  border: 2px solid transparent;
+  transition: border-color 0.2s;
+  transition: transform 0.2s;
 }
-.movieContainer:hover{
-    transform: scale(1.2);
-}
-.divMovie{
-     background-color: #8d99ae;
-     -webkit-text-stroke: 0.4px #000000;
-     color: #FFCDB2;
-     font-size: 20px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     padding: 8px;
-     border-radius: 10%;
-     overflow:auto;
-     text-overflow: ellipsis;
-    }
 
+.imgMovie:hover {
+  filter: saturate(150%);
+  border-color: #333;
+  transform: rotate(5deg);
+}
+
+.movieContainer:hover {
+  transform: scale(1.2);
+}
+.divMovie {
+  background-color: #8d99ae;
+  -webkit-text-stroke: 0.4px #000000;
+  color: #ffcdb2;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  border-radius: 10%;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
