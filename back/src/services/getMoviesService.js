@@ -1,10 +1,11 @@
 const axios = require("axios");
+const Movie = require("../models/Movie")
 
 module.exports = {
   getAllMovies : async () => {
     try {
-      const movies = await axios("https://students-api.up.railway.app/movies");
-      return movies.data;
+      const movies = await Movie.find();
+      return movies;
     } catch (error) {
       return [];
     }
