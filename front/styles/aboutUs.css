@@ -1,57 +1,92 @@
-body{
-    background-color: #6D6875;
+body {
+  background-color: #6d6875;
 }
 
-#presentation{
-    width: 100%;
+#presentation {
+  width: 100%;
 }
-#logoImg{
-    float: left;
-    margin-right: 70px;
-    margin-left: 30px;
-    width: 600px ;
-    height: 600px;
+#logoImg {
+  float: left;
+  margin-right: 70px;
+  margin-left: 30px;
+  width: 600px;
+  height: 600px;
 }
-#presentationTitle{
-    display:flex;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #5b5761;
-    font-size: 60px;
-    width: fit-content;
-    border-radius: 20%;
-    -webkit-text-stroke: 0.5px #FFCDB2;
-    color: #E5989B;
-}
-
-#presentationP{
-    width:600px;
-    background-color: #5b5761;
-    -webkit-text-stroke: 0.4px #000000;
-    color: #FFCDB2;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    overflow:auto;
-   text-overflow: ellipsis;
+#presentationTitle {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  background-color: #5b5761;
+  font-size: 60px;
+  width: fit-content;
+  border-radius: 20%;
+  -webkit-text-stroke: 0.5px #ffcdb2;
+  color: #e5989b;
 }
 
-#home{
-    text-decoration: none;
-    font-size: 40px;
-    -webkit-text-stroke: 0.5px #FFCDB2;
-    color: #E5989B;
-    background-color: #5b5761;
-    border-radius: 20%;
+#presentationP {
+  width: 600px;
+  background-color: #5b5761;
+  -webkit-text-stroke: 0.4px #000000;
+  color: #ffcdb2;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: auto;
+  text-overflow: ellipsis;
 }
-#home:hover{
-    text-decoration: underline;
-    
+
+.footer {
+  display: flex;
+  text-align: end;
+  font-size: 20px;
+  -webkit-text-stroke: 0.5px #ffcdb2;
+  color: #e5989b;
+  padding-top: 10%;
 }
-.footer{
-    display: flex;
-    text-align: end;
-    font-size: 20px;
-    -webkit-text-stroke: 0.5px #FFCDB2;
-    color: #E5989B;
-    padding-top: 10%;
+
+#aboutUs {
+  text-decoration: none;
+  font-size: 40px;
+  -webkit-text-stroke: 0.5px #ffcdb2;
+  color: #e5989b;
+  background-color: #5b5761;
+  border-radius: 20%;
+}
+#aboutUs:hover {
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+
+#contact {
+  text-decoration: none;
+  font-size: 40px;
+  -webkit-text-stroke: 0.5px #ffcdb2;
+  color: #e5989b;
+  background-color: #5b5761;
+  border-radius: 20%;
+}
+#contact:hover {
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+
+#home {
+  text-decoration: none;
+  font-size: 40px;
+  -webkit-text-stroke: 0.5px #ffcdb2;
+  color: #e5989b;
+  background-color: #5b5761;
+  border-radius: 20%;
+}
+#home:hover {
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+.container-fluid {
+  background-color: #323035;
+}
+
+.navbar-nav {
+  background-color: #323035;
 }

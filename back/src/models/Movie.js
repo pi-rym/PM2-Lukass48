@@ -1,24 +1,26 @@
+
 const { Schema, model } = require("mongoose");
 
 const movieSchema = new Schema({
   title: {
     type: String,
     required: true,
+    unique: true,
+  },
+   year: {
+    type: Number,
+    required: true,
   },
   director: {
+    type: String,
+    required: true,
+  }, 
+  duration: {
     type: String,
     required: true,
   },
   genre: {
     type: Array,
-    required: true,
-  },
-  year: {
-    type: Number,
-    required: true,
-  },
-  duration: {
-    type: String,
     required: true,
   },
   rate: {
@@ -30,6 +32,7 @@ const movieSchema = new Schema({
   poster: {
     type: String,
     required: true,
+    unique: true,
   },
 });
 
