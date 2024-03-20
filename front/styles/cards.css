@@ -6,6 +6,8 @@
   margin-left: 150px;
 }
 .imgMovie {
+  width:300px ;
+  height: 450px;
   margin-left: 10%;
   border-radius: 8px;
   transition: filter 0.2s;
@@ -24,7 +26,8 @@
   transform: scale(1.2);
 }
 .divMovie {
-  background-color: #8d99ae;
+  width: 400px;
+  background-color: #192b49;
   -webkit-text-stroke: 0.4px #000000;
   color: #ffcdb2;
   font-size: 20px;

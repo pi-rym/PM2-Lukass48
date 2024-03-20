@@ -1,10 +1,15 @@
 
-function renderMovies(movie){
+function renderMovies(movie, index, array) {
     const movieElement = document.createElement('article');
 
     movieElement.classList.add('movieContainer');
 
-    movieElement.innerHTML = `<img class="imgMovie" src = "${movie.poster}" alt="${movie.title}">`
+    const posterElement = document.createElement('img');
+    posterElement.classList.add('imgMovie');
+    posterElement.src = movie.poster;
+    posterElement.alt = movie.title;
+
+    movieElement.appendChild(posterElement);
 
     const movieInfoContainer = document.createElement('div');
     movieInfoContainer.classList.add('divMovie');

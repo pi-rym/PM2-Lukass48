@@ -1,5 +1,6 @@
 
-const getMovie = require('./handler')
+const getMovie = require('./handler');
 
-getMovie()
 
+
+ getMovie();

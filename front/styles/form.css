@@ -56,6 +56,7 @@ body {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #f9f9f9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 label {
@@ -70,6 +71,39 @@ input {
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 3px;
+}
+
+.checkbox-container {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.checkbox-custom {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 3px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.checkbox-custom:checked {
+  background-color: #2196f3;
+}
+
+.checkbox-custom:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 2px;
+  visibility: hidden;
+}
+.checkbox-custom:checked:after {
+  visibility: visible;
 }
 
 button {
