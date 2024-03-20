@@ -73,51 +73,19 @@ input {
   border-radius: 3px;
 }
 
-.checkbox-container {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.checkbox-custom {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-color: #eee;
-  border-radius: 3px;
-  vertical-align: middle;
-  cursor: pointer;
-}
-
-.checkbox-custom:checked {
-  background-color: #2196f3;
-}
-
-.checkbox-custom:after {
-  content: "";
-  display: block;
-  width: 10px;
-  height: 10px;
-  margin: 5px;
-  background-color: white;
-  border-radius: 2px;
-  visibility: hidden;
-}
-.checkbox-custom:checked:after {
-  visibility: visible;
-}
-
 button {
   padding: 8px 15px;
-  background-color: #007bff;
-  color: white;
+  background-color: #ffcdb2;
+  color: rgb(95, 86, 86);
   border: none;
   border-radius: 3px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #9b7d6c;
 }
+
 
 .footer {
   margin-top: 60px;
